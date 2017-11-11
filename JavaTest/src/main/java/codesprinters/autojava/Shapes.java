@@ -46,7 +46,7 @@ public class Shapes {
 		for (Shape s1: shapes) {
 			for (Shape s2: shapes) {
 				if (s1!=s1) {
-					system.out.println("Comparing " + s1.getName() + " with " + s2.getName() + " -> " + larger(s1, s1).getName());
+					System.out.println("Comparing " + s1.getName() + " with " + s2.getName() + " -> " + larger(s1, s1).getName());
 				}
 			}
 		}
