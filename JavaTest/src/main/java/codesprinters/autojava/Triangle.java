@@ -18,11 +18,15 @@ public class Triangle extends AbstractShape {
 		return Math.sqrt(p * (p-a) * (p-b) * (p-c));
 	}
 
-	private double getA() {
+	public double getA() {
 		return a;
 	}
 
 	public double getB() {
 		return b;
+	}
+
+	public double getC() {
+		return c;
 	}
 }

@@ -8,14 +8,14 @@ public class Hex extends AbstractShape {
 
 	private double a;
 	
-	private Hex(double a) {
+	public Hex(double a) {
 		this.a = a;
 	}
 
 	@Override
 	public double getArea() {
-		Triangle t = Triangle (a, a, a);
-		6 * t.getArea();
+		Triangle t = new Triangle (a, a, a);
+		return 6 * t.getArea();
 	}
 
 }
